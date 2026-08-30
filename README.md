@@ -13,6 +13,26 @@ National University of Kyiv 🇺🇦.
 
 ---
 
+## 📖 About
+
+🧮 A 2018 university research project on **matrix pseudobasis algorithms** — a
+way to recalculate the solution of a linear system `A·u = b` after its
+coefficients change, without solving the whole system again from zero. 🔁
+
+💡 The core trick: keep the known solution and inverse matrix of a *related*
+system on hand, then swap in the changed rows **one at a time**, using
+simplex-style pivot steps ➕ rank/support checks at each iteration, until the
+target system's inverse and solution fall out at the end. ⚙️
+
+🎤 Presented at **ITI&I-2018**, the 5th International Conference "Information
+Technology and Interactions," at Taras Shevchenko National University of
+Kyiv 🇺🇦 — November 20–21, 2018.
+
+🖥️ Includes the original C++ implementation, a portable rebuild that
+compiles and runs today, worked numerical examples 📐, the defense
+presentation 🖼️, and the full thesis text 📄 — all archived and documented
+here in 2026 as a portfolio piece. 🗄️✨
+
 ## 📋 Summary
 
 | | |
