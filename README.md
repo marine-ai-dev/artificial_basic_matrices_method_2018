@@ -1,15 +1,15 @@
-# Matrix Pseudobasic Algorithms
+# 🧮 Matrix Pseudobasic Algorithms
 
 **Матричні псевдобазисні алгоритми**
 
-> University Research / Conference Project · 2018
-> Archived and curated as a portfolio repository · 2026
+> 🎓 University Research / Conference Project · 2018
+> 🗄️ Archived and curated as a portfolio repository · 2026
 
 A method and reference C++ implementation for **recalculating the solution
 of a linear system after its coefficients change — without solving the
-system from scratch**, presented at the 5th International Conference
-"Information Technology and Interactions" (ITI&I-2018), Taras Shevchenko
-National University of Kyiv.
+system from scratch** 🔁, presented at the 5th International Conference
+"Information Technology and Interactions" (ITI&I-2018) 🎤, Taras Shevchenko
+National University of Kyiv 🇺🇦.
 
 ---
 
@@ -140,8 +140,15 @@ Technology), room 310, on November 20, 2018, at ITI&I-2018, Kyiv. Full
 details and citation in [`docs/conference.md`](docs/conference.md).
 
 - 📄 Thesis text: [`paper/thesis.docx`](paper/thesis.docx)
-- 🖥️ Presentation: [`presentation/Zakhyst_5.pptx`](presentation/Zakhyst_5.pptx)
+- 🖥️ Presentation: [`presentation/Zakhyst_5.pptx`](presentation/Zakhyst_5.pptx) · 📕 [PDF export](presentation/Zakhyst_5.pdf)
 - 📸 Photos & results chart: [`assets/`](assets)
+
+**Slides on the pseudobasic-matrix method** (the group defense deck covers several sub-topics; these are the ones relevant to this repository):
+
+| | |
+|---|---|
+| ![Mathematical model slide](assets/slides/slide-20.png) | ![Algorithm slide](assets/slides/slide-25.png) |
+| ![Worked example, iteration 1](assets/slides/slide-30.png) | ![Worked example, inverse & solution](assets/slides/slide-35.png) |
 
 ## 🧰 Technologies used
 
