@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+cmake-build*/
+*.o
+*.obj
+*.out
+*.exe
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# OS / editor cruft
+.DS_Store
+.tmp/
+*.swp
+
+# Compiled test binaries produced while verifying the build locally
+test_build
